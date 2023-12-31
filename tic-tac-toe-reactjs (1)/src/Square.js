@@ -10,7 +10,7 @@ function TicTacToe(){
 
 function Square(props){
   return(
-  <button> className="Square" onClick={props.onClick}>{props.value}</button>
+  <button className="Square" onClick={props.onClick}>{props.value}</button>
   );
 }
  function Board(){
