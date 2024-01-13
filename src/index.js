@@ -1,22 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import { render } from 'react-dom';
 import './style.css';
-import {Game} from "./Square";
+import TicTacToe from "./Square";
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      name: 'React'
-    };
-  }
-  render() {
+const App = () => {
+  const [name] = useState('React');
+
     return (
-      <div>
-          <Game/>
-      </div>
+      <>
+          <TicTacToe/>
+      </>
     );
-  }
 }
 
 render(<App />, document.getElementById('root'));
