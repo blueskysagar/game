@@ -1,2 +1,2 @@
-# game
+# Game
 Tic toc Toe

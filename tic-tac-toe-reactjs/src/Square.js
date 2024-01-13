@@ -15,7 +15,7 @@ function Square(props){
 }
  function Board(){
       // board State
-      const [boardSquares, setBoardSquares] = useState(Array[9].fill(null));
+      const [boardSquares, setBoardSquares] = useState(Array(9).fill(null));
       // turn State
       const [xIsNext, setxIsNext] = useState(true);
       //handleClick
@@ -36,8 +36,9 @@ function Square(props){
       };
  }
  //create our board
-      // create a render square functions
-       const renderSquare = (index) =>{
+      
+ // create a render square functions
+const renderSquare = (index) =>{
         return <Square value={boardSquares[index]} onClick= {( )=>handleClick[index]}/>
       
       //taking index
