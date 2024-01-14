@@ -1,11 +1,13 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1, p {
   font-family: Lato;
 }
-.body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
-}
-
+ 
 ol, ul {
   padding-left: 30px;
 }
@@ -14,10 +16,6 @@ ol, ul {
   clear: both;
   content: "";
   display: table;
-}
-
-.status {
-  margin-bottom: 10px;
 }
 
 .square {
@@ -37,6 +35,7 @@ ol, ul {
 
 .square:focus {
   outline: none;
+  background-color: red;
 }
 
 .kbd-navigation .square:focus {
