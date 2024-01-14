@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "semantic-ui-react": "^0.81.1"
+    "react-dom": "^18.2.0"
+    
   },
   "scripts": {
     "start": "react-scripts start",
